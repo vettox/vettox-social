@@ -4,6 +4,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import java.util.Map;
+
 /**
  * The class HomeController.
  * <p/>
@@ -15,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class HomeController {
 
     @RequestMapping(value = "", method = RequestMethod.GET)
-    public String homePage() {
-
+    public String homePage(Map<String, Object> model) {
+        model.put("helloString", "HomeController");
         return "index";
     }
 }

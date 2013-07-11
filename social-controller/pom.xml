@@ -11,6 +11,8 @@
 
     <artifactId>social-controller</artifactId>
 
+    <packaging>jar</packaging>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
