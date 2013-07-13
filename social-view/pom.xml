@@ -12,7 +12,7 @@
     
     <packaging>war</packaging>
     
-    <name>social-view Maven Webapp</name>
+    <name>social-view Webapp</name>
     <url>http://maven.apache.org</url>
     
     <dependencies>
@@ -27,8 +27,12 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
+
     </dependencies>
-    <build>
-        <finalName>social-view</finalName>
-    </build>
+
 </project>
