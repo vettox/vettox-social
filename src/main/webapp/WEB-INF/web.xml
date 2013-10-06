@@ -3,7 +3,7 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-    <display-name>Archetype Created Web Application</display-name>
+    <display-name>social</display-name>
 
     <context-param>
         <param-name>contextConfigLocation</param-name>
@@ -20,6 +20,7 @@
 
     <servlet>
         <servlet-name>vettox</servlet-name>
+        <display-name>vettox</display-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
         <init-param>
